@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="index.css"> 
+    <title>Password Generator App</title>
+</head>
+<body>
+    <mar id="animation">Generate Passwords</h1>
+    <div id="main">
+    <div id="mini-main">
+    <h1 id="heading">Generate your <span class="span">Random Password</span></h1>
+    <div id="description">Choose your Secure Password!</div>
+    <input type="button" id="getbtn"  value="GeneratePasswords"/>
+   <div id="slide">
+     <span class="range">Select Range for your Password</span>
+       <input type="range" min="1" value="1" max="30" id="slider"/>
+       <span id="value"></span>
+    </div>
+    <hr>
+    <h2 class="cc">Click to copy Any following Passwords</h2>
+    <div id="pass">
+    <div id="password1" onclick="copy()"></div>
+    <div id="password2"  onclick="copy()"></div>
+</div>
+    <div id="pass">
+        <div id="password3"  onclick="copy()"></div>
+        <div id="password4"  onclick="copy()"></div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
