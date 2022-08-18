@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -8,6 +8,7 @@ body {
     background: linear-gradient(107deg , #c33764, #1d2671);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 #animation {
@@ -37,8 +38,7 @@ body {
 #main {
     height: 640px;
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+   
     border-radius: 0px;
     background: linear-gradient(102deg , #6190e8, #a7bfe8);
     margin-top: 20px;
