@@ -20,10 +20,21 @@ const characters =[
   let passwordlen;
   let slider = document.getElementById("slider");
   let slidervalue = document.getElementById("value");
-  
+  let message = "";
  slider.addEventListener("input",function() {
     slidervalue.textContent = `${slider.value}`;
     passwordlen = slider.value;
+    if(passwordlen <=10) {
+      message = "Weak password";
+    } else if(passwordlen <=15) {
+      message = "Medium password";
+    } else if(passwordlen <=20) {
+      message = "Strong password";
+    } 
+    else if(passwordlen <=30) {
+      message  = "Very Strong password";
+    }
+    return slidervalue.textContent = message;
  })
 
 
